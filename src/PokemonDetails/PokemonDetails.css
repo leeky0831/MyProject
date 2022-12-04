@@ -41,3 +41,55 @@
 .pokemonStatsLbl {
     font-size: 30px;
 }
+
+.specialAttGrid {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid rgb(221, 54, 54) !important;
+    padding-bottom: 30px !important;
+    background-color: rgba(221, 54, 54, .25) !important;
+}
+
+.specialAttH2 {
+    color: rgb(221, 54, 54) !important;
+}
+
+.specialAttLbl {
+    font-size: 30px;
+    color: rgb(221, 54, 54) !important;
+}
+
+.specialDefGrid {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid rgb(26, 148, 99) !important;
+    padding-bottom: 30px !important;
+    background-color: rgba(54, 221, 68, .25);
+}
+
+.specialDefH2 {
+    color: rgb(26, 148, 99) !important;
+}
+
+.specialDefLbl {
+    font-size: 30px;
+    color: rgb(26, 148, 99) !important;
+}
+
+.movesetBtn {
+    width: 80%;
+    border: none !important;
+    color: black !important;
+    background-color: rgb(225, 233, 237)  !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    border-radius: 25px !important;
+}
+
+.spritesPaper {
+    padding: 10px;
+}
+
+.spritesImg {
+    width: 40% !important;
+}

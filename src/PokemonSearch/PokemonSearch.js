@@ -13,8 +13,8 @@ function PokemonSearch() {
             <BrowserRouter>
                 <Routes>
                     <Route path="*" element={<p>Page not found</p>} />
-                    <Route path="/MenuAndSearch" element={<MenuAndSearchBar />}>
-                        <Route path="/MenuAndSearch/:searchText" element={<PokemonList />} />
+                    <Route path="/" element={<MenuAndSearchBar />}>
+                        <Route path="/:searchText" element={<PokemonList />} />
                     </Route>
                     <Route path="/PokemonDetails" element={<PokemonDetails />} />
                 </Routes>
