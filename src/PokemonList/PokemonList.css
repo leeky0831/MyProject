@@ -1,0 +1,11 @@
+.pokemonListDiv {
+    float: right;
+}
+
+.pokeListBtn {
+    width: 80%;
+    height: 100%;
+    color: rgb(0, 0, 0) !important;
+    border: 2px solid rgb(0, 0, 0) !important;
+    font-weight: bold !important;
+}
