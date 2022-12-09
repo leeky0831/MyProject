@@ -5,6 +5,10 @@
     margin-right: auto;
 }
 
+.cardHr {
+    width: 90%;
+}
+
 a {
     text-decoration: none !important;
 }

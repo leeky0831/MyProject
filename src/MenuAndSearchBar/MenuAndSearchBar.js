@@ -28,8 +28,8 @@ function MenuAndSearchBar() {
 
                 <Grid xs={10} md={2}>
                     <Card className="sideMenuCard">
-                        <h2>Filter Pokemon by Types</h2>
-                        <hr />
+                        <h2>Filter by Types</h2>
+                        <hr className="cardHr" />
 
                         <CardContent>
                             <Grid container spacing={1}>

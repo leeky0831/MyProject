@@ -14,8 +14,6 @@ function PokemonDetails() {
 
     useEffect(() => {
         fetch(location.state).then((response) => response.json()).then((data) => {
-            console.log(data);
-
             const statsArray = {
                 hp: data.stats[0].base_stat,
                 attack: data.stats[1].base_stat,
@@ -32,7 +30,7 @@ function PokemonDetails() {
 
     return (
         <div className="pokemonDetailsDiv">
-            <Container maxWidth="xl" className="test">
+            <Container maxWidth="xl">
                 <Grid container spacing={2}>
                     <Grid sm={12} md={3}>
                         <Paper className="pokemonPaper" elevation={3}>
